@@ -12,7 +12,6 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Lobster Two', cursive;
 }
 
 ::-moz-selection {
@@ -64,7 +63,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-family: 'Lobster Two', cursive; 16px/26px ;
 }
 
 .wrapper {
