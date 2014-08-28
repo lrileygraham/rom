@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-<%= stylesheet_link_tag "application", 'https://fonts.googleapis.com/css?family=<'Lobster+Two', :media => "all" %>
+<%= stylesheet_link_tag "application", 'https://fonts.googleapis.com/css?family=Lobster+Two', :media => "all" %>
 
 html,
 button,
