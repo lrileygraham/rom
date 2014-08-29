@@ -10,7 +10,7 @@ textarea {
 }
 
 html { 
-  background: url('http://www.rileyisme.com/wp-content/uploads/2014/08/ourchurch-e1409258629402.jpg') no-repeat left center fixed; 
+  background: url('http://www.rileyisme.com/wp-content/uploads/2014/08/ourchurch-e1409258629402.jpg') no-repeat left center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -105,6 +105,8 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    border-style: solid;
+    border-color: #ff0000 #0000ff;
 }
 
 nav a {
