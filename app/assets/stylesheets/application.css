@@ -105,8 +105,8 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    border-style: solid;
-    border-color: #ff0000 #0000ff;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
 }
 
 nav a {
