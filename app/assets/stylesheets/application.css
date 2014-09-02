@@ -1,5 +1,6 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
+
 html,
 button,
 input,
@@ -8,10 +9,16 @@ textarea {
     color: #222;
 }
 
-html {
-    font-size: 1em;
-    line-height: 1.4;
+
+
+html { 
+  background: url('http://www.rileyisme.com/wp-content/uploads/2014/09/cover-e1409620106485.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -75,12 +82,12 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid none;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid none;
 }
 
 .header-container,
@@ -104,24 +111,27 @@ nav ul {
 
 nav a {
     display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
+    margin-bottom: 5 px;
+    padding: 5px 0;
 
     text-align: center;
     text-decoration: none;
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    border: 5px solid white;
+    background-color: white;
 }
 
 nav a:hover,
 nav a:visited {
-    color: white;
+    color: transparent;
+    background-color: white;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: white;
 }
 
 /* ==============
@@ -219,9 +229,9 @@ nav a:hover {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+        -webkit-box-shadow: 0 5px 10px none;
+           -moz-box-shadow: 0 5px 10px none;
+                box-shadow: 0 5px 10px none;
     }
 
 /* ============
@@ -340,7 +350,7 @@ nav a:hover {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
