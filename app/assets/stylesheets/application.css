@@ -400,6 +400,7 @@ nav a:hover {
         page-break-after: avoid;
     }
 }
+}
 
 ::-moz-selection {
     background: #b3d4fc;
