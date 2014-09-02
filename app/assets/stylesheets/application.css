@@ -9,8 +9,6 @@ textarea {
     color: #222;
 }
 
-
-
 html { 
   background: url('http://www.rileyisme.com/wp-content/uploads/2014/09/cover-e1409620106485.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -19,13 +17,6 @@ html {
   background-size: cover;
 }
 
-
-/*
-html {
-    font-size: 1em;
-    line-height: 1.4;
-}
-*/
 
 ::-moz-selection {
     background: #b3d4fc;
