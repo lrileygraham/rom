@@ -223,6 +223,14 @@ nav a:hover {
         list-style-type: none;
 
     }
+    
+    h4 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 45%;
+
+    }
+    
+
 
     nav li:first-child a {
         margin-left: 0;
@@ -288,6 +296,12 @@ nav a:hover {
     .main aside {
         float: right;
         width: 28%;
+    }
+    
+       h4 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 25%;
+
     }
 }
 
