@@ -184,7 +184,7 @@ nav a:hover {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) 
+@media only screen and (min-width: 480px) {
 
 /* ====================
     INTERMEDIATE: Menu
@@ -399,7 +399,6 @@ nav a:hover {
     h3 {
         page-break-after: avoid;
     }
-}
 }
 
 ::-moz-selection {
