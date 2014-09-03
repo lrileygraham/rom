@@ -1,7 +1,7 @@
 resources :ideas
   root :to => redirect('/ideas')
 
- get 'page/about', to: 'Pages#about'
+
     
     
 
