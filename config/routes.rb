@@ -1,10 +1,8 @@
-resources :ideas
-  root :to => redirect('/ideas')
-
 Rails.application.routes.draw do
-    get 'pages/about'
-    
-    
+  get 'pages/about'
+
+  resources :ideas
+  root :to => redirect('/ideas')
   
 
 
