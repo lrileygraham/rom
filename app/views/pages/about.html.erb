@@ -2,17 +2,26 @@
 <p>Find me in app/views/pages/about.html.erb</p>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Railsgirls</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
 
-<%= yield %>
+  <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title"><a href="/ideas">Our Wedding</a></h1>
+                <nav>
+                    <ul>
 
-</body>
-</html>
+                        <li class="active"><a href="#">About Us</a></li>
+                        <li><a href="#">Wedding</a></li>
+                        <li><a href="#">Registries</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        
+         <aside>
+                    <h1> About Us </h1>
+                    <h4> July 11, 2015 </h4>
+                </aside>
+
+
+
+
