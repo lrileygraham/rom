@@ -164,10 +164,10 @@ nav a:hover {
     padding: 30px 0;
 }
 
-.information p, .information h1 
-{
+.information p, .information h1 {
+    
     color: #696969;
-    background-color: white;
+    background-color: #696969;
 
 }
 
