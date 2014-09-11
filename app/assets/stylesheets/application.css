@@ -105,7 +105,6 @@ h4 {
 .header-container,
 .footer-container,
 .main aside {
-    background: none;
     text-align: center;
 
 }
@@ -160,9 +159,9 @@ nav a:hover {
 
 .information {
 
-  background-color: white;
+  background-color: solid white;
   float: left;
-  width: 57%;
+  width: 87%;
   color: #696969;
         
         }
@@ -171,7 +170,7 @@ nav a:hover {
 
   background-color: white;
   float: left;
-  width: 57%;
+  width: 87%;
   color: #696969;
         
         }
@@ -180,7 +179,7 @@ nav a:hover {
 
   background-color: white;
   float: left;
-  width: 57%;
+  width: 87%;
   color: #696969;
         
         }
