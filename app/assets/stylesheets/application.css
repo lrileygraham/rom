@@ -123,6 +123,7 @@ h4 {
 .header-container,
 .footer-container,
 .main aside {
+    text- align: center;
     padding: 20px;
 
 }
