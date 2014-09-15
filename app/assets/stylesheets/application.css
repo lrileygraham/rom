@@ -17,6 +17,22 @@ html {
 }
 
 
+.information {
+     
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: #696969;
+    background-color: white;
+    list-style-type: none;
+
+}
+
 ::-moz-selection {
     background: none;
     text-shadow: none;
@@ -80,21 +96,6 @@ body {
     border-bottom: 20px solid none;
 }
 
-.information {
-     
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: #696969;
-    background-color: white;
-    list-style-type: none;
-
-}
 
 .footer-container {
 border-top: 20px solid none;
