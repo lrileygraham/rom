@@ -158,6 +158,42 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
+section ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+section a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: #696969;
+    background-color: white;
+    list-style-type: none;
+
+}a
+
+section a:hover,
+section a:visited {
+    color: #808080;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+section a:hover {
+    text-decoration: none;
+      opacity: 0.7;
+      list-style-type: none;
+}
+
+
 
 
 
