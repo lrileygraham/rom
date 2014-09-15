@@ -19,7 +19,7 @@ html {
 
 section {
      
-    display: block;
+    width: 57%;
     margin-bottom: 10px;
     padding: 15px 0;
 
@@ -29,6 +29,7 @@ section {
 
     color: #696969;
     background-color: white;
+    opacity: 0.6;
     list-style-type: none;
 
 }
