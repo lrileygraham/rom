@@ -8,7 +8,6 @@ textarea {
     color: #222;
 }
 
-/*
 html {
   background: url('http://www.rileyisme.com/wp-content/uploads/2014/09/cover-e1409620106485.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -16,7 +15,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
- */
+
 
 ::-moz-selection {
     background: none;
@@ -159,32 +158,7 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-.information {
 
-  background-color: solid white;
-  float: left;
-  width: 87%;
-  color: #696969;
-        
-        }
-        
-.information h1 {
-
-  background-color: white;
-  float: left;
-  width: 87%;
-  color: #696969;
-        
-        }
-        
-.information p {
-
-  background-color: white;
-  float: left;
-  width: 87%;
-  color: #696969;
-        
-        }
 
 
 .main {
