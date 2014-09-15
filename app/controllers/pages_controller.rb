@@ -1,4 +1,8 @@
 class PagesController < ApplicationController
   def about
-  end
+    end
+  def registries
+    end
+  def wedding
+    end
 end
