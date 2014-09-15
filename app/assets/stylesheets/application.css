@@ -159,7 +159,7 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-section {
+.information {
     background-color: white;
     color: white;
     display: block;
