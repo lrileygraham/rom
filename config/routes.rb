@@ -1,6 +1,12 @@
 Rails.application.routes.draw do
   get 'pages/about'
 
+Rails.application.routes.draw do
+    get 'pages/wedding'
+
+Rails.application.routes.draw do
+    get 'pages/registries'
+    
   root :to => redirect('/ideas')
     resources :ideas
 
