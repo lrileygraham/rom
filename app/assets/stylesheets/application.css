@@ -19,7 +19,7 @@ html {
 
 section {
      
-    width: 57%;
+    width: 77%;
     margin-bottom: 10px;
     padding: 15px 0;
 
@@ -29,7 +29,7 @@ section {
 
     color: #696969;
     background-color: white;
-    opacity: 0.6;
+    opacity: 0.8;
     list-style-type: none;
 
 }
