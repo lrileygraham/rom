@@ -159,19 +159,10 @@ nav a:hover {
     MOBILE: Main
    ============== */
 
-.information {
-    background-color: white;
-    color: white;
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 0;
-
-}
-
-
 
 .main {
     padding: 30px 0;
+    background-color: white;
 }
 
 
