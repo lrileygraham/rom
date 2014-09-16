@@ -2,7 +2,6 @@
 
 
 
-
 ::-moz-selection {
     background: none;
     text-shadow: none;
@@ -524,6 +523,7 @@ nav a:hover {
   --------------------------------------------- */
 
   body, html {
+    padding: 20px ;
     overflow: hidden;
       background: url('http://www.rileyisme.com/wp-content/uploads/2014/09/cover-e1409620106485.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
