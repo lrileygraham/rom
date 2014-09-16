@@ -1,43 +1,7 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
-
-html {
-  background: url('http://www.rileyisme.com/wp-content/uploads/2014/09/cover-e1409620106485.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 
-section {
-
-    top-padding: 30px;
-    display: block;
-    margin-bottom: 10px;
-    padding: 15px 5% 15px;
-
-    text-align: left;
-    text-decoration: none;
-    font-weight: bold;
-
-    color: #696969;
-    background-color: white;
-    list-style-type: none;
-
-}
-
-section h1 {
-
-     font-family: 'Quattrocento Sans', sans-serif;
-}
 
 ::-moz-selection {
     background: none;
@@ -85,9 +49,6 @@ textarea {
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
 
-body {
-    font-family: 'Quattrocento', serif;
-}
 
 .wrapper {
     width: 90%;
@@ -559,6 +520,12 @@ nav a:hover {
 
   body, html {
     overflow: hidden;
+    font-family: 'Quattrocento', serif;
+      background: url('http://www.rileyisme.com/wp-content/uploads/2014/09/cover-e1409620106485.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 
   body {
