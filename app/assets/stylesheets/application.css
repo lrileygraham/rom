@@ -567,7 +567,12 @@ nav a:hover {
     z-index: 3; /* slide under groups 1 and 3 */
   }
   #group2 .parallax__layer--back {
-     background: url('http://i.dailymail.co.uk/i/pix/2008/06/10/article-0-018CB2F800000578-471_468x319.jpg')
+  overflow: hidden;
+     background: url('http://i.dailymail.co.uk/i/pix/2008/06/10/article-0-018CB2F800000578-471_468x319.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
 
   #group3 {
