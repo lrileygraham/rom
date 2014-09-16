@@ -577,6 +577,12 @@ nav a:hover {
 
   #group3 {
     z-index: 4; /* slide over group 2 and 4 */
+    background: url('http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3764.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   }
   #group3 .parallax__layer--base {
     background: rgb(153,216,101);
