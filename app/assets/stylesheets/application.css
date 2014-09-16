@@ -536,5 +536,15 @@ nav a:hover {
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+
   }
+  
+
+.parallax__layer--base {
+  transform: translateZ(0);
+  background-color: white;
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
 
