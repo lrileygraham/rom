@@ -498,13 +498,13 @@ nav a:hover {
   .parallax__layer--base {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
-     background-color: white;
+
   }
 
   .parallax__layer--back {
     -webkit-transform: translateZ(-1px);
      transform: translateZ(-1px) scale(2);
-      background-color: black;
+
   }
   
   .parallax__layer--deep {
@@ -516,7 +516,7 @@ nav a:hover {
   height: 100vh;
   transform-style: preserve-3d;
   transform: translate3d(700px, 0, -800px) rotateY(30deg);
-  background-color: blue;
+
 }
 
 
