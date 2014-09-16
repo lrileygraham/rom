@@ -30,9 +30,13 @@ section {
 
     color: #696969;
     background-color: white;
-    opacity: 0.8;
     list-style-type: none;
 
+}
+
+section h1 {
+
+     font-family: 'Quattrocento Sans', sans-serif;
 }
 
 ::-moz-selection {
