@@ -509,14 +509,8 @@ nav a:hover {
   /* demo styles
   --------------------------------------------- */
 
-  * {
-    margin:0;
-    padding:0;
-  }
 
-  body {
-    font: 100% / 1.5 Arial;
-  }
+
 
   .parallax {
     font-size: 200%;
@@ -529,6 +523,14 @@ nav a:hover {
 
    /* centre the content in the parallax layers */
   .name {
+
+    background: url('http://www.rileyisme.com/wp-content/uploads/2014/09/cover-e1409620106485.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
     position: absolute;
     left: 50%;
     top: 50%;
