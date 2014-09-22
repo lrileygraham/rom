@@ -103,6 +103,7 @@ border-top: 20px solid none;
 h4 {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 65%;
+    color: white;
 
 }
 
@@ -233,6 +234,7 @@ h1 {
     h4 {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 45%;
+    color: white;
 
     }
     
@@ -309,6 +311,7 @@ h1 {
        h4 {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 25%;
+    color: white;
 
     }
 }
