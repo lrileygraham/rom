@@ -560,6 +560,7 @@ nav a:hover {
 
   .parallax {
     font-size: 200%;
+    width: 50%;
   }
 
    /* centre the content in the parallax layers */
