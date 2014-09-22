@@ -197,7 +197,7 @@ h1 {
    =============== */
 
 .ie7 .title {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 /* ==========================================================================
@@ -300,6 +300,7 @@ h1 {
 
     .title {
         float: left;
+        padding: 20px;
     }
 
     nav {
@@ -331,7 +332,7 @@ h1 {
     
     .cover {
     font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 25%;
+    font-size: 45%;
     color: white;
 
     }
