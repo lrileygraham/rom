@@ -108,6 +108,11 @@ h4  {
 
 }
 
+h2 
+p   {
+    padding: 10px;
+}
+
 .cover {
     font-family: 'Quattrocento Sans', sans-serif;
     font-size: 65%;
