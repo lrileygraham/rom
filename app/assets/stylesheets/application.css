@@ -89,6 +89,7 @@ border-top: 20px solid none;
     font-size: 50%;
      line-height: 120%;
 
+
 }
 
 
@@ -188,7 +189,7 @@ h1 {
 }
 
 .footer-container footer {
-    color: white;
+    color: #696969;
     padding: 20px 0;
 }
 
