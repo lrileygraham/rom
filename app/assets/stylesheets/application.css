@@ -128,8 +128,13 @@ h4  {
 
 .title a {
     color: #696969;
+    text-decoration: none;
+    list-style-type: none;
 }
 
+section {
+    padding: 20px;
+}
 
 
 /* ==============
