@@ -624,7 +624,7 @@ h1 {
 
   }
   #group3 .parallax__layer--base {
-    background: rgb(153,216,101);
+    background: white;
   }
 
   #group4 {
@@ -633,7 +633,7 @@ h1 {
   
 
   #group4 .parallax__layer--deep img {
-    background: rgb(184,223,101);
+    background: white;
       min-height: 100%;
   min-width: 1024px;
 	
@@ -652,19 +652,19 @@ h1 {
     z-index: 3; /* slide over group 4 and 6 */
   }
   #group5 .parallax__layer--base {
-    background: rgb(214,229,100);
+    background: white;
   }
 
   #group6 {
     z-index: 2; /* slide under group 5 and 7 */
   }
   #group6 .parallax__layer--back {
-    background: rgb(245,235,100);
+    background: white;
   }
 
   #group7 {
     z-index: 3; /* slide over group 7 */
   }
   #group7 .parallax__layer--base {
-    background: rgb(255,241,100);
+    background: white;
   }
