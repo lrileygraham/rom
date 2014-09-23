@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get 'pages/registries'
     
     
-  root :to => "welcome#index"
+  root :to => "ideas#index"
     resources :ideas
 
 
