@@ -334,6 +334,11 @@ h1 {
         float: right;
         width: 28%;
     }
+
+     .main aside li {
+        color: #696969;
+        font-size: 25%;
+    }
     
        h4 {
     font-family: 'Quattrocento Sans', sans-serif;
