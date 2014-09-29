@@ -343,6 +343,7 @@ h1 {
         float: right;
         width: 28%;
         list-style-type: none;
+         text-decoration: none;
     }
 
    aside li a {
@@ -351,6 +352,7 @@ h1 {
         line-height: 150%;
         list-style-type: none;
         padding-bottom: 20px;
+        text-decoration: none;
         text-decoration: none;
 
     }
