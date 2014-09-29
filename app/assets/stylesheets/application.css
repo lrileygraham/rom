@@ -335,11 +335,18 @@ h1 {
         width: 28%;
     }
 
-     .left aside li a {
+   aside li {
         color: #696969;
         font-size: 25%;
         list-style-type: none;
     }
+
+    .left a {
+    color: #696969;
+    text-decoration: none;
+    list-style-type: none;
+    }
+
     
        h4 {
     font-family: 'Quattrocento Sans', sans-serif;
