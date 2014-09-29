@@ -346,12 +346,25 @@ h1 {
    aside li a {
         color: #696969;
         font-size: 25%;
-        line-height: 170%;
+        line-height: 150%;
         list-style-type: none;
         padding-bottom: 20px;
         text-decoration: none;
 
     }
+
+    aside a:hover {
+        color: #696969;
+        text-decoration: underline;
+        list-style-type: none;
+    }
+
+    aside a:visited {
+        color: #808080;
+        text-decoration: underline;
+        list-style-type: none;
+    }
+
     
        h4 {
     font-family: 'Quattrocento Sans', sans-serif;
