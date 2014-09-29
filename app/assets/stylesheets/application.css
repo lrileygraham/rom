@@ -172,6 +172,7 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: none;
+    background-color: #F1F1E9;
       opacity: 0.7;
       list-style-type: none;
 }
