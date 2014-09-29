@@ -320,6 +320,11 @@ h1 {
         padding: 20px;
     }
 
+     .aside {
+        float: left;
+        padding: 20px;
+    }
+
     nav {
         float: right;
         width: 50%;
@@ -340,24 +345,13 @@ h1 {
         width: 28%;
     }
 
-   aside li {
+   aside li a {
         color: #696969;
         font-size: 25%;
         line-height: 170%;
         list-style-type: none;
         padding-bottom: 20px;
     }
-
-    .left  li {
-    color: #696969;
-    }
-
-    .left a {
-    color: #696969;
-    text-decoration: none;
-    list-style-type: none;
-    }
-
     
        h4 {
     font-family: 'Quattrocento Sans', sans-serif;
