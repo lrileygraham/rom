@@ -343,6 +343,7 @@ h1 {
    aside li {
         color: #696969;
         font-size: 25%;
+        line-height: 90%;
         list-style-type: none;
     }
 
