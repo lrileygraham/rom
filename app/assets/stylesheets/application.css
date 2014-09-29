@@ -338,7 +338,12 @@ h1 {
    aside li {
         color: #696969;
         font-size: 25%;
+        line-height: 50%;
         list-style-type: none;
+    }
+
+    .left  {
+    color: #696969;
     }
 
     .left a {
