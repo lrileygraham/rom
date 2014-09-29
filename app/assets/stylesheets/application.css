@@ -198,7 +198,7 @@ h1 {
 .main aside {
     color: #696969;
     padding: 5px 5% 5px;
-    border-top: 2px #696969;
+    border: 2px #696969;
 }
 
 
@@ -294,16 +294,6 @@ h1 {
     }
 }
 
-    aside ul li {
-        display: inline;
-    }
-
-    .oldie aside a {
-        margin: 0 0.7%;
-    }
-}
-
-
 @media only screen and (min-width: 768px) {
 
 /* ====================
@@ -332,8 +322,6 @@ h1 {
         float: left;
         padding: 20px;
       list-style-type: none;
-        float: right;
-        width: 50%;
     }
 
     nav {
