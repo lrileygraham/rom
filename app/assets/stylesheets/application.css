@@ -338,6 +338,7 @@ h1 {
      .left aside li a {
         color: #696969;
         font-size: 25%;
+        list-style-type: none;
     }
     
        h4 {
