@@ -199,10 +199,6 @@ h1 {
     padding: 5px 5% 5px;
 }
 
-.left aside {
-   color: #696969;
-    padding: 5px 5% 5px;
-}
 
 .footer-container footer {
     color: #696969;
@@ -323,6 +319,7 @@ h1 {
      .aside {
         float: left;
         padding: 20px;
+      list-style-type: none;
     }
 
     nav {
@@ -343,6 +340,7 @@ h1 {
     .main aside {
         float: right;
         width: 28%;
+        list-style-type: none;
     }
 
    aside li a {
@@ -351,6 +349,8 @@ h1 {
         line-height: 170%;
         list-style-type: none;
         padding-bottom: 20px;
+        text-decoration: none;
+
     }
     
        h4 {
