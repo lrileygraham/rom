@@ -343,11 +343,12 @@ h1 {
    aside li {
         color: #696969;
         font-size: 25%;
-        line-height: 150%;
+        line-height: 170%;
         list-style-type: none;
+        padding- bottom: 20px;
     }
 
-    .left  {
+    .left  li {
     color: #696969;
     }
 
