@@ -199,6 +199,11 @@ h1 {
     padding: 5px 5% 5px;
 }
 
+.left aside {
+   color: #696969;
+    padding: 5px 5% 5px;
+}
+
 .footer-container footer {
     color: #696969;
     padding: 20px 0;
@@ -338,7 +343,6 @@ h1 {
    aside li {
         color: #696969;
         font-size: 25%;
-        line-height: 50%;
         list-style-type: none;
     }
 
