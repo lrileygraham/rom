@@ -136,11 +136,15 @@ h4  {
 
 section {
     padding: 20px;
-    line-height: 200%;
+    line-height: 160%;
 }
 
 p {
     padding: 20px;
+}
+
+.movie {
+  text-align: center;
 }
 
 
