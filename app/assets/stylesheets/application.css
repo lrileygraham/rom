@@ -327,9 +327,9 @@ h1 {
 
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px none;
-           -moz-box-shadow: 0 5px 10px none;
-                box-shadow: 0 5px 10px none;
+        -webkit-box-shadow: 0 0px 0px none;
+           -moz-box-shadow: 0 0px 0px none;
+                box-shadow: 0 0px 0px none;
 
 
     }
@@ -345,7 +345,7 @@ h1 {
 
      .aside {
         float: left;
-        padding: 20px;
+        padding: 10px;
         list-style-type: none;
     }
 
@@ -366,7 +366,7 @@ h1 {
 
     .main aside {
         float: left;
-        width: 28%;
+        width: 20%;
         list-style-type: none;
 
     }
@@ -374,9 +374,9 @@ h1 {
    aside li a {
         color: #696969;
         font-size: 25%;
-        line-height: 150%;
+        line-height: 120%;
         list-style-type: none;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         text-decoration: none;
 
     }
