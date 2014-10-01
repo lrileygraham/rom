@@ -365,7 +365,7 @@ h1 {
     }
 
     .main aside {
-        float: right;
+        float: left;
         width: 28%;
         list-style-type: none;
 
