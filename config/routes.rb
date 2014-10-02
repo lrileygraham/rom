@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'folder/wedding'
+
   get 'pages/about'
   get 'pages/wedding'
   get 'pages/registries'
