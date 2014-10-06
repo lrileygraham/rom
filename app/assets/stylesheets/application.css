@@ -365,7 +365,7 @@ h1 {
     WIDE: Main
    ============ */
 
-    .main article {
+    .main .text {
         float: left;
         width: 57%;
 
@@ -776,30 +776,30 @@ body:before, body:after {
 body:after { clear: both }
 
 
-article {
+.text {
     margin-bottom: 3rem;
     position: relative;
     *zoom: 1;
 }
 
-article:before, article:after {
+.text:before, .text:after {
     content: "";
     display: table;
 }
 
-article:after { clear: both }
+.text:after { clear: both }
 
-article figure {
+.text figure {
     float: left;
     width: 32.5%;
 }
 
-article section:first-of-type {
+.text section:first-of-type {
     float: right;
     width: 62.5%;
 }
 
-article section:last-of-type {
+.text section:last-of-type {
     display: none;
     visibility: hidden;
 }
