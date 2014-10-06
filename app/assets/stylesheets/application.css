@@ -755,8 +755,7 @@ h1 {
 
 
 figure {
-  margin-left: auto ;
-  margin-right: auto ;
+    margin: 0 0 1.3rem 0;
     -webkit-transition: .125s linear;
     -moz-transition: .125s linear;
     -ms-transition: .125s linear;
@@ -765,15 +764,11 @@ figure {
 }
 
 figure img {
-  margin-left: auto ;
-  margin-right: auto ;
     max-width: 100%;
     height: auto;
 }
 
 body:before, body:after {
-  margin-left: auto ;
-  margin-right: auto ;
     content: "";
     display: table;
 }
@@ -783,18 +778,13 @@ body:after { clear: both }
 
 .text {
     margin-bottom: 3rem;
+    float: right;
     *zoom: 1;
-  margin-left: auto ;
-  margin-right: auto ;
-
 }
 
 .text:before, .text:after {
     content: "";
     display: table;
-      margin-left: auto ;
-  margin-right: auto ;
-
 }
 
 .text:after { clear: both }
@@ -802,22 +792,16 @@ body:after { clear: both }
 .text figure {
     float: left;
     width: 32.5%;
-      margin-left: auto ;
-  margin-right: auto ;
 }
 
 .text section:first-of-type {
     float: right;
     width: 62.5%;
-      margin-left: auto ;
-  margin-right: auto ;
 }
 
 .text section:last-of-type {
     display: none;
     visibility: hidden;
-      margin-left: auto ;
-  margin-right: auto ;
 }
 
 section {
@@ -836,44 +820,36 @@ input[type=checkbox] {
     margin: -1px;
     overflow: hidden;
     padding: 0;
-      margin-left: auto ;
-  margin-right: auto ;
+    position: absolute;
 }
 
 [for="read_more"] {
+    position: absolute;
     bottom: -3rem;
     left: 0;
     width: 100%;
     text-align: center;
     padding: .65rem;
     box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
-      margin-left: auto ;
-  margin-right: auto ;
 }
 
 [for="read_more"]:hover {
     background: rgba(0,0,0,.5);
     color: rgb(255,255,255);
-      margin-left: auto ;
-  margin-right: auto ;
 }
 
 [for="read_more"] span:last-of-type {
     display: none;
     visibility: hidden;
-      margin-left: auto ;
-  margin-right: auto ;
 }
 
 input[type=checkbox]:checked ~ section {
     display: block;
     visibility: visible;
     width: 100%;
-      margin-left: auto ;
-  margin-right: auto ;
 }
 
-input[type=checkbox]:checked ~ figure { width: 100%  }
+input[type=checkbox]:checked ~ figure { width: 100% }
 
 input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
     display: none;
