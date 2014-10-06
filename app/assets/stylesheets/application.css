@@ -145,7 +145,6 @@ p {
 
 .movie {
  text-align: center;
- padding: 10px;
 }
 
 /*
@@ -782,6 +781,7 @@ body:after { clear: both }
     position: relative;
     *zoom: 1;
     left: 20%;
+    padding: 20px;
 }
 
 .text:before, .text:after {
@@ -821,7 +821,7 @@ input[type=checkbox] {
     width: 1px;
     margin: -1px;
     overflow: hidden;
-    padding: 10px;
+    padding: 0;
     position: absolute;
 }
 
