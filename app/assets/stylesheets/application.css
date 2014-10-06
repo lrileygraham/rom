@@ -780,6 +780,7 @@ body:after { clear: both }
     margin-bottom: 3rem;
     position: relative;
     *zoom: 1;
+    padding-left: 400px;
 }
 
 .text:before, .text:after {
@@ -792,7 +793,6 @@ body:after { clear: both }
 .text figure {
     float: left;
     width: 32.5%;
-    padding-left: 400px;
 }
 
 .text section:first-of-type {
