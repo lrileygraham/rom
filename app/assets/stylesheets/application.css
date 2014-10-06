@@ -144,17 +144,16 @@ p {
 }
 
 .movie {
-  padding: 10px;
-  float:left;
-  width:500px;
+ text-align: center;
 }
 
+/*
 .movieside{
 padding: 10px;
 float:left;
 width:500px;
 }
-
+*/
 
 
 /* ==============
