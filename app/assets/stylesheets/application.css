@@ -783,7 +783,6 @@ body:after { clear: both }
 
 .text {
     margin-bottom: 3rem;
-    position: relative;
     *zoom: 1;
   margin-left: auto ;
   margin-right: auto ;
@@ -837,13 +836,11 @@ input[type=checkbox] {
     margin: -1px;
     overflow: hidden;
     padding: 0;
-    position: absolute;
       margin-left: auto ;
   margin-right: auto ;
 }
 
 [for="read_more"] {
-    position: absolute;
     bottom: -3rem;
     left: 0;
     width: 100%;
