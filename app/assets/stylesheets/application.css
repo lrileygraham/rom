@@ -780,7 +780,7 @@ body:after { clear: both }
     margin-bottom: 3rem;
     position: relative;
     *zoom: 1;
-    left: 50%;
+    left: 20%;
 }
 
 .text:before, .text:after {
