@@ -795,7 +795,7 @@ body:after { clear: both }
 }
 
 .text section:first-of-type {
-    float: right;
+    float: center;
     width: 62.5%;
 }
 
@@ -854,9 +854,11 @@ input[type=checkbox]:checked ~ figure { width: 100% }
 input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
     display: none;
     visibility: hidden;
+    padding: 15px;
 }
 
 input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
     display: block;
     visibility: visible;
+    padding: 15px;
 }
