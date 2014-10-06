@@ -144,15 +144,15 @@ p {
 }
 
 .movie {
-  padding: 5px;
+  padding: 10px;
   float:left;
   width:500px;
 }
 
 .movieside{
-padding: 5px;
+padding: 10px;
 float:left;
-width:350px;
+width:400px;
 }
 
 
