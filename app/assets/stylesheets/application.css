@@ -876,17 +876,14 @@ input[type=checkbox]:checked ~ section {
   margin-right: auto ;
 }
 
-input[type=checkbox]:checked ~ figure { width: 100%   margin-left: auto ;
-  margin-right: auto ; }
+input[type=checkbox]:checked ~ figure { width: 100%  }
 
-input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {   margin-left: auto ;
-  margin-right: auto ;
+input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
     display: none;
     visibility: hidden;
 }
 
-input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {   margin-left: auto ;
-  margin-right: auto ;
+input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
     display: block;
     visibility: visible;
 }
