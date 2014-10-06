@@ -144,7 +144,14 @@ p {
 }
 
 .movie {
-  text-align: left;
+  float:left;
+  width:500px;
+}
+
+.movieside{
+float:right;
+width:250px;
+background:#c9c;
 }
 
 
