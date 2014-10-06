@@ -777,8 +777,7 @@ body:after { clear: both }
 
 
 .text {
-   display: table;
-    margin: 0 auto;
+    margin-bottom: 3rem;
     position: relative;
     *zoom: 1;
 }
