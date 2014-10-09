@@ -752,113 +752,22 @@ h1 {
 
  /* read more
   --------------------------------------------- */
-
-
-figure {
-    margin: 0 0 1.3rem 0;
-    -webkit-transition: .125s linear;
-    -moz-transition: .125s linear;
-    -ms-transition: .125s linear;
-    -o-transition: .125s linear;
-    transition: .125s linear;
+.sidebar-box {
+	max-height: 120px;
+	position: relative;
+	overflow: hidden;
 }
-
-figure img {
-    max-width: 100%;
-    height: auto;
-}
-
-body:before, body:after {
-    content: "";
-    display: table;
-}
-
-body:after { clear: both }
-
-
-.text {
-    margin-bottom: 3rem;
-    position: relative;
-    *zoom: 1;
-    left: 20%;
-    padding: 20px;
-}
-
-.text:before, .text:after {
-    content: "";
-    display: table;
-}
-
-.text:after { clear: both }
-
-.text figure {
-    float: left;
-    width: 32.5%;
-}
-
-.text section:first-of-type {
-    float: right;
-    width: 62.5%;
-}
-
-.text section:last-of-type {
-    display: none;
-    visibility: hidden;
-}
-
-section {
-    -webkit-transition: .125s linear;
-    -moz-transition: .125s linear;
-    -ms-transition: .125s linear;
-    -o-transition: .125s linear;
-    transition: .125s linear;
-}
-
-input[type=checkbox] {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-}
-
-[for="read_more"] {
-    position: absolute;
-    bottom: -3rem;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    padding: .65rem;
-    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
-}
-
-[for="read_more"]:hover {
-    background: rgba(0,0,0,.5);
-    color: rgb(255,255,255);
-}
-
-[for="read_more"] span:last-of-type {
-    display: none;
-    visibility: hidden;
-}
-
-input[type=checkbox]:checked ~ section {
-    display: block;
-    visibility: visible;
-    width: 100%;
-}
-
-input[type=checkbox]:checked ~ figure { width: 100% }
-
-input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
-    display: none;
-    visibility: hidden;
-}
-
-input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
-    display: block;
-    visibility: visible;
+.sidebar-box .read-more { 
+	position: absolute; 
+	bottom: 0; left: 0;
+	width: 100%; 
+	text-align: center; 
+	margin: 0; padding: 30px 0; 
+	
+	/* "transparent" only works here because == rgba(0,0,0,0) */ 
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, black));
+        background-image: -webkit-linear-gradient(top, transparent, black);
+        background-image: -moz-linear-gradient(top, transparent, black);
+        background-image: -ms-linear-gradient(top, transparent, black);
+        background-image: -o-linear-gradient(top, transparent, black);
 }
