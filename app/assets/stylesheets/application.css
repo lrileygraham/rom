@@ -141,6 +141,12 @@ h4  {
 .paragraph-party {
     padding: 40px;
     line-height: 160%;
+    float:right;
+}
+
+.left {
+  float:left;
+  width:200px;
 }
 
 p {
