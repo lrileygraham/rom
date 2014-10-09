@@ -753,10 +753,3 @@ h1 {
  /* read more
   --------------------------------------------- */
 
-.readmore-js-toggle, .readmore-js-section {
-  display: block;
-  width: 100%;
-}
-.readmore-js-section {
-  overflow: hidden;
-}
