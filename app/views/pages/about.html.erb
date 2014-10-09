@@ -23,24 +23,21 @@
                                 
                                 <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
-<script language="javascript" type="text/javascript">
-function showHide(shID) {
-    if (document.getElementById(shID)) {
-        if (document.getElementById(shID+'-show').style.display != 'none') {
-            document.getElementById(shID+'-show').style.display = 'none';
-            document.getElementById(shID).style.display = 'block';
-        }
-        else {
-            document.getElementById(shID+'-show').style.display = 'inline';
-            document.getElementById(shID).style.display = 'none';
-        }
-    }
-}
+
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".message").hide();
+    $("span.readmore").click(function(){
+        $(".message").show("slow");
+        $(this).hide();
+    });
+});
 </script>
 
 </head>
-    
-     
+
+
        <body>
     <div class="header-container">
             <header class="wrapper clearfix">
@@ -73,22 +70,19 @@ function showHide(shID) {
 
 <!-- ANDREA! -->
 
-
-
-
-<div id="wrap">
-<h1>Show/Hide Content</h1>
-<p> This example shows you how to create a show/hide container using a couple of links, a div, a few lines of CSS, and some JavaScript to manipulate our CSS. Just click on the "see more" link at the end of this paragraph to see the technique in action, and be sure to view the source to see how it all works together.
-
-<a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">See more.</a></p>
-
-<div id="example" class="more">
-<p>Congratulations! You've found the magic hidden text! Clicking the link below will hide this content again.</p>
-
-<p><a href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">Hide this content.</a></p>
-
+<div>
+Styles make the formatting job much easier and more efficient.
 </div>
+<span class="readmore">Read More...</span>
+<div class="message">
+To give an attractive look to web sites, styles are heavily used.
+JQuery is a powerful JavaScript library that allows us to add dynamic elements to our web
+sites. Not only it is easy to learn, but it's easy to implement too. A person must have a
+good knowledge of HTML and CSS and a bit of JavaScript. jQuery is an open source project
+that provides a wide range of features with cross-platform compatibility.
 </div>
+
+
 
 
     <div class ="movie">
@@ -105,19 +99,13 @@ function showHide(shID) {
 
 
 
-<div id="wrap">
-<h1>Show/Hide Content</h1>
+
 <p>Andrea, who dubbed Riley with the name "Lawa," is her one and only sibbling. Andrea and Lawa did a lot together, and being about 3 years apart they were able to attend most schools together, including the University of Dayton.
+</p>
 
-<a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">See more.</a></p>
 
-<div id="example" class="more">
 <p>Andrea, although younger, has always been wiser (Maybe thats because Lawa always made her do everything first, most notably take booster shots first). Andrea and Lawa are very similar, which has caused many a hair pull, back in the day. However, I can gladly report that the last hair pull ended somewhere around '93. Today the girls live 461 miles apart, but that doesn't stop their freqent visits. In fact, there will be many more visits this year because Andrea and Conor are engaged! Congrats you two, we love you both.</p>
 
-<p><a href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">Hide this content.</a></p>
-
-</div>
-</div>
 
 
 
