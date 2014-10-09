@@ -74,7 +74,68 @@ $('article').readmore({maxHeight: 240});
             </div>
 
 <!-- ANDREA! -->
-
+<section id="info">
+<p>The required markup for Readmore.js is extremely lightweight. No need for complicated sets of <code>divs</code> or hardcoded class names, just call <code>.readmore()</code> on the element containing your block of text and Readmore.js takes care of the rest. </p>
+<p>Readmore.js is compatible with all versions of jQuery greater than 1.7.0.</p>
+<h2 id="example">Example</h2>
+<pre><code class="javascript">$('article').readmore();</code></pre>
+<p>Yes, it&#8217;s that simple. You can change the speed of the animation, the height of the collapsed block, and the open and close elements.</p>
+<pre><code>$('article').readmore({
+    speed: 75,
+    maxHeight: 500
+});</code></pre>
+<h2 id="theoptions">The options:</h2>
+<ul>
+<li><code>speed: 100</code> (in milliseconds)</li>
+<li><code>maxHeight: 200</code> (in pixels)</li>
+<li><code>heightMargin: 16</code> (in pixels, avoids collapsing blocks that are only slightly larger than <code>maxHeight</code>)</li>
+<li><code>moreLink: '&lt;a href="#"&gt;Read more&lt;/a&gt;'</code></li>
+<li><code>lessLink: '&lt;a href="#"&gt;Close&lt;/a&gt;'</code></li>
+<li><code>embedCSS: true</code> (insert required CSS dynamically, set this to <code>false</code> if you include the necessary CSS in a stylesheet)</li>
+<li><code>sectionCSS: 'display: block; width: 100%;'</code> (sets the styling of the blocks)</li>
+<li><code>startOpen: false</code> (do not immediately truncate, start in the fully opened position)</li>
+<li><code>expandedClass: 'readmore-js-expanded'</code> (class added to expanded blocks)</li>
+<li><code>collapsedClass: 'readmore-js-collapsed'</code> (class added to collapsed blocks)</li>
+<li><code>beforeToggle: function() {}</code> (called after a more or less link is clicked, but <i>before</i> the block is collapsed or expanded)</li>
+<li><code>afterToggle: function() {}</code> (called <i>after</i> the block is collapsed or expanded)</li>
+</ul>
+<p>If the element has a <code>max-height</code> CSS property, Readmore.js will use that value rather than the value of the <code>maxHeight</code> option.</p>
+<h3 id="thecallbacks">The callbacks:</h3>
+<p>The callback functions, <code>beforeToggle()</code> and <code>afterToggle</code>, both receive the same arguments: <code>trigger</code>, <code>element</code>, and <code>expanded</code>.</p>
+<ul>
+<li><code>trigger</code>: the "Read more" or "Close" element that was clicked</li>
+<li><code>element</code>: the block that is being collapsed or expanded</li>
+<li><code>expanded</code>: Boolean; <code>true</code> means the block is expanded</li>
+</ul>
+<h4 id="callbackexample">Callback example:</h4>
+<p>Here's an example of how you could use the <code>afterToggle</code> callback to scroll back to the top of a block when the "Close" link is clicked.</p>
+<pre><code class="javascript">$('article').readmore({
+    afterToggle: function(trigger, element, expanded) {
+        if(! expanded) { // The "Close" link was clicked
+            $('html, body').animate( { scrollTop: element.offset().top }, {duration: 100 } );
+        }
+    }
+});</code></pre>
+<h3 id="recommendedcss">Recommended CSS:</h3>
+<p>The intention behind Readmore.js is to use CSS for as much functionality as possible. In particular, &#8220;collapsing&#8221; is achieved by setting <code>overflow: hidden</code> on the containing block and changing the <code>height</code> property.</p>
+<p>By default, Readmore.js inserts the following CSS:</p>
+<pre><code class="css">.readmore-js-toggle, .readmore-js-section {
+    display: block;
+    width: 100%;
+}
+.readmore-js-section {
+    overflow: hidden;
+}</code></pre>
+<p>You can override the the first set of rules when you set up Readmore.js like so:</p>
+<pre><code class="javascript">$(&apos;article&apos;).readmore({sectionCSS: &apos;display: inline-block; width: 50%;&apos;});</code></pre>
+<p>If you want to include the necessary styling in your site&#8217;s stylesheet, you can disable the dynamic embedding by passing <code>embedCSS: false</code> in the options hash.</p>
+<pre><code class="javascript">$(&apos;article&apos;).readmore({embedCSS: false});</code></pre>
+<h2 id="removingreadmore">Removing Readmore</h2>
+<p>You can remove the Readmore functionality like so:</p>
+<pre><code class="javascript">$('article').readmore('destroy');</code></pre>
+<p>Or, you can be more surgical by specifying a particular element:</p>
+<pre><code class="javascript">$('article:first').readmore('destroy');</code></pre>
+</section>
 <pre><code class="javascript">$('article:first').readmore('destroy');</code></pre>
 </section>
 
