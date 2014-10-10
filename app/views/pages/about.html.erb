@@ -59,6 +59,39 @@ $(document).ready(function() {
 });
 </script>
 
+<script>
+$(function() {
+    
+    var $allMovies = $("iframe[src^='http://player.vimeo.com'], iframe[src^='http://www.youtube.com'], object, embed"),
+    $fluidEl = $("figure");
+    
+	$allMovies.each(function() {
+        
+        $(this)
+	    // jQuery .data does not work on object/embed elements
+	    .attr('data-aspectRatio', this.height / this.width)
+	    .removeAttr('height')
+	    .removeAttr('width');
+        
+	});
+	
+	$(window).resize(function() {
+        
+        var newWidth = $fluidEl.width();
+        $allMovies.each(function() {
+            
+            var $el = $(this);
+            $el
+	        .width(newWidth)
+	        .height(newWidth * $el.attr('data-aspectRatio'));
+            
+        });
+        
+	}).resize();
+    
+});
+</script>
+
 </head>
 
 
@@ -97,7 +130,7 @@ $(document).ready(function() {
 
     <div class ="movie">
 
-                <iframe src="//player.vimeo.com/video/106976360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="max-width:100%;height:auto;" ></iframe> <p><a href="http://vimeo.com/106976360">Andrea</a> will you be in our wedding?!
+                <iframe src="//player.vimeo.com/video/106976360" width="700" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/106976360">Andrea</a> will you be in our wedding?!
    </div>
 
 <div class ="left"> <img src="http://www.rileyisme.com/wp-content/uploads/2014/10/IMG_0058.jpg" alt="Andrea and I" width="200" height="auto"/></div>
@@ -117,7 +150,7 @@ Andrea, although younger, has always been wiser (Maybe thats because Lawa always
 
 <!-- MO! -->
 
-    <div class ="movie"><iframe src="//player.vimeo.com/video/106976484" width="700" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/106976484">Mo</a> will you be in our wedding?!</p></div>
+    <div class ="movie"><iframe src="//player.vimeo.com/video/106976484" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/106976484">Mo</a> will you be in our wedding?!</p></div>
 
 
         <div class ="left"><img src="http://www.rileyisme.com/wp-content/uploads/2014/10/IMG_1768-e1412953659886.jpg" alt="Mo" width="200" height="auto" /></div>
