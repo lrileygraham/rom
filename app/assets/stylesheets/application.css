@@ -157,7 +157,7 @@ p {
 .movie {
  text-align: center;
  padding-top: 40px;
- 
+
 }
 
 
@@ -373,6 +373,8 @@ h1 {
     nav {
         float: right;
         width: 50%;
+        position:fixed;
+        top:0px;
     }
 
 /* ============
@@ -673,6 +675,8 @@ h1 {
   body {
     font: 100%;
     font-family: 'Quattrocento', serif;
+    margin:0px;
+
   }
 
   * {
