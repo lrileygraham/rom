@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'gifts/registries'
+
   get 'folder/wedding'
 
   get 'pages/about'
