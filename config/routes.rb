@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
   resources :photos
-
-  get 'photo/comment'
-
   get 'gifts/registries'
 
   get 'folder/wedding'
@@ -13,6 +10,9 @@ Rails.application.routes.draw do
     
     
   root :to => "ideas#index"
+    resources :ideas
+    
+    root :to => "photos#index"
     resources :ideas
 
 
