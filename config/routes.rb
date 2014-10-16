@@ -12,8 +12,9 @@ Rails.application.routes.draw do
   root :to => "ideas#index"
     resources :ideas
     
-    root :to => "photos#index"
-    resources :ideas
+    get 'photo/:id' => 'photo#view'
+    
+  
 
 
   # The priority is based upon order of creation: first created -> highest priority.
