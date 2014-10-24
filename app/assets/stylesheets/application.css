@@ -1205,6 +1205,20 @@ Modules - reusable parts of our design
 
 
 
+header h1,
+header h2,
+header p {
+	margin-left:2%;
+	padding-right:2%;
+}
+active2 #tab2,
+active3 #tab3,
+active4 #tab4,
+active5 #tab5 {
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
 
 
 /* Start of Column CSS */
