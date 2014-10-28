@@ -138,11 +138,13 @@ h4  {
 .paragraph {
     padding: 20px;
     line-height: 160%;
+    text-align: left;
 }
 .paragraph-party {
     padding: 10px;
     line-height: 160%;
     background-color: #F6F6F9;
+    text-align: left;
     
 }
 
@@ -158,8 +160,8 @@ p {
 
 .movie {
  padding-right: 20px;
- text-align: right;
  padding-top: 40px;
+ float: right;
 
 
 }
@@ -791,6 +793,7 @@ a.morelink {
 }
 .comment {
     margin: 10px;
+    text-align: left;
 
 }
 
