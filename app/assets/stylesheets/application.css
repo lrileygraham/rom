@@ -772,6 +772,8 @@ h1 {
 a.morelink {
     text-decoration:none;
     outline: none;
+    background-color: #F6F6F9;
+
 }
 .morecontent span {
     display: none;
