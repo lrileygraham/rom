@@ -777,9 +777,11 @@ a.morelink {
 }
 .morecontent span {
     display: none;
+    background-color: #F6F6F9;
 }
 .comment {
     margin: 10px;
+    background-color: #F6F6F9;
 }
 
 
