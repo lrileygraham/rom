@@ -161,12 +161,14 @@ p {
  text-align: right;
  padding-top: 40px;
 
+
 }
 
 .movietext {
  padding-top: 40px;
  text-align: left;
  float: left;
+ max-width: 450px;
 
 }
 
