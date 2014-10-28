@@ -142,6 +142,7 @@ h4  {
 .paragraph-party {
     padding: 10px;
     line-height: 160%;
+    background-color: #F6F6F9;
     
 }
 
@@ -772,16 +773,16 @@ h1 {
 a.morelink {
     text-decoration:none;
     outline: none;
-    background-color: #F6F6F9;
+
 
 }
 .morecontent span {
     display: none;
-    background-color: #F6F6F9;
+
 }
 .comment {
     margin: 10px;
-    background-color: #F6F6F9;
+
 }
 
 
