@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :guestbooks
+
   resources :photos
   get 'gifts/registries'
 
