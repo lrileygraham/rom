@@ -7,15 +7,13 @@ Rails.application.routes.draw do
   get 'folder/wedding'
 
   get 'pages/about'
-
-
   
-    
+
     
   root :to => "ideas#index"
     resources :ideas
     
-    get 'photo/:id' => 'photo#view'
+    get 'guestbooks/:id' => 'guestbooks#index'
     
   
 
