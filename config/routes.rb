@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :guestbooks
+  resources :ideas
 
   resources :photos
   get 'gifts/registries'
@@ -10,10 +10,9 @@ Rails.application.routes.draw do
   
 
     
-  root :to => "ideas#index"
-    resources :ideas
+  root :to => "guestbooks#index"
+    resources :guestbooks
     
-    get 'guestbooks/:id' => 'guestbooks#index'
     
   
 
