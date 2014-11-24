@@ -140,6 +140,14 @@ h4  {
     line-height: 160%;
     text-align: left;
 }
+
+.paragraph-dar{
+	background-color: ##e2e2e2;
+    padding: 20px;
+    line-height: 160%;
+    text-align: left;
+}
+
 .paragraph-party {
     padding: 10px;
     line-height: 160%;
@@ -153,6 +161,15 @@ h4  {
   padding: 10px;
   
 }
+
+.left-dark img{
+	background-color: ##e2e2e2;
+  float:left;
+  padding: 10px;
+  
+}
+
+
 
 p {
     padding: 20px;
