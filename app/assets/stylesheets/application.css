@@ -162,7 +162,7 @@ h4  {
 }
 
 .center img{
-  float: center;
+	float: right;	
   padding: 20px;
   
 }
