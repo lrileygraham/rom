@@ -223,7 +223,7 @@ nav a {
     color: #e1e1e1;
     list-style-type: none;
 
-}a
+}
 
 nav a:hover,
 nav a:visited {
@@ -258,7 +258,9 @@ nav a:visited {
 
 
 h1 {
-    color: white;
+    color: #2d2d2d;
+    padding: 30px;
+    font-family: 'Quattrocento Sans', sans-serif;
 
 }
 
