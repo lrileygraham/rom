@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   
 
     
-  root :to => "ideas#index"
+  root :to => "pages/about"
     resources :ideas
     
     get 'guestbooks/:id' => 'guestbooks#view'
