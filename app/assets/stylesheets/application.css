@@ -161,7 +161,11 @@ h4  {
   
 }
 
-
+.center img{
+  text-align: center;
+  padding: 20px;
+  
+}
 
 
 
