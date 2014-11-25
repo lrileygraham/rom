@@ -228,14 +228,15 @@ nav a {
 nav a:hover,
 nav a:visited {
     font-weight: bold;
+    color: black;
     text-decoration: none;
     list-style-type: none;
 }
 
 .circular {
-	width: 400px;
-	height: auto;
-	background: url(http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3764.jpg) no-repeat;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
 	}
 
 
