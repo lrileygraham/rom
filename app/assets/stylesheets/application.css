@@ -208,6 +208,8 @@ nav ul {
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    font: 100%;
+    font-family: 'Quattrocento', serif;
 }
 
 nav a {
