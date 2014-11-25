@@ -515,6 +515,10 @@ h1 {
     width: auto;
 }
 
+.active {
+    font-weight: bold;
+}
+
 .invisible {
     visibility: hidden;
 }
