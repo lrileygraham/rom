@@ -223,18 +223,22 @@ nav a {
     color: #e1e1e1;
     list-style-type: none;
 
+        border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+
+
+
 }
 
 nav a:hover,
 nav a:visited {
     font-weight: bold;
     color: black;
-
-    height: 30px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px 0 0 0;
-    border-radius: 20px;
 
 }
 
