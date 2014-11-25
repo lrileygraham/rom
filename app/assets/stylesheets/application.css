@@ -219,15 +219,17 @@ nav a {
 
     text-align: center;
     text-decoration: none;
-
-    color: #e1e1e1;
+    color: #878787;
     list-style-type: none;
 
 }
 
-nav a:hover,
+nav a:hover {
+	color: #2d2d2d;
+}
+
 nav a:visited {
-    color: #2d2d2d;
+    color: #e1e1e1;
 
 }
 
