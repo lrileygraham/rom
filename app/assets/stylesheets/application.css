@@ -132,8 +132,11 @@ h4  {
 li.selected {
   font-weight: 700;
   color: #0a0a0a;
-  border-top-color: #0a0a0a;
-  border-top-width: 20px;
+}
+
+nav ul li.selected {
+    font-weight: 700;
+  color: #0a0a0a;
 }
 
 .title a {
