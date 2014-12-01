@@ -263,11 +263,17 @@ h1 {
     color: #2d2d2d;
     padding: 30px;
     font-family: 'Quattrocento Sans', sans-serif;
-      font-size: 70%;
-    border-radius: 78px 78px 78px 78px;
--moz-border-radius: 78px 78px 78px 78px;
--webkit-border-radius: 78px 78px 78px 78px;
-border: 0px solid #000000;
+      font-size: 200%;
+
+
+}
+
+.date {
+  font-family: 'Quattrocento', serif;
+      color: #2d2d2d;
+      padding-top: 1px;
+      padding-bottom: 30px;
+      font-size: 200%;
 
 }
 
