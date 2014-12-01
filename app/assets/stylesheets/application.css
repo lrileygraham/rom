@@ -131,8 +131,8 @@ h4  {
 
 li.selected {
   font-weight: 700;
-  color: black;
-  border-top: 2px;
+  color: #0a0a0a;
+  border: 2px;
 }
 
 .title a {
