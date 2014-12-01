@@ -162,8 +162,9 @@ h4  {
 }
 
 .center img{
-	float: right;	
-  padding: 20px;
+ display: block;
+    margin-left: auto;
+    margin-right: auto 
   
 }
 
