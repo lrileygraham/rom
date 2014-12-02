@@ -139,8 +139,8 @@ li.selected {
         margin-bottom: 0;
         list-style-type: none;
           border-style: solid;
-    border-top: thick double #0a0a0a;
-    border-bottom: none;
+    border-bottom: thick double #0a0a0a;
+    border-top: none;
     border-left: none;
     border-right: none;
 }
@@ -247,6 +247,17 @@ nav a {
     color: gray;
     list-style-type: none;
 
+}
+
+li.selected {
+  font-weight: 700;
+  color: #0a0a0a;
+          float: left;
+        width: 24%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+        list-style-type: none;
 }
 
 nav a:hover {
