@@ -314,6 +314,10 @@ h1 {
     padding-top: 40px;
 }
 
+.ie7 .static {
+    padding-top: 40px;
+}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -416,6 +420,14 @@ h1 {
     .title {
         float: left;
         padding: 20px;
+    }
+
+    .static  a {
+ 	color: #2d2d2d;
+    padding-top: 70px;
+    font-family: 'Quattrocento Sans', sans-serif;
+     font-size: 450%;
+     text-decoration: none;
     }
 
      .aside {
