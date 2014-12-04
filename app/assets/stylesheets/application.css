@@ -165,8 +165,9 @@ nav ul li.selected {
 
 .paragraph ul li {
     padding: 20px;
-    line-height: 160%;
+    line-height: 2%;
     text-align: left;
+    text-indent: 50px;
 }
 
 .homecover {
