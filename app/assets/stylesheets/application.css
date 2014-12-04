@@ -165,8 +165,8 @@ nav ul li.selected {
 
 .paragraph ul li {
     padding: 20px;
-    line-height: 5%;
-    text-align: center;
+    line-height: 160%;
+    text-align: right;
     list-style-type: none;
 }
 
