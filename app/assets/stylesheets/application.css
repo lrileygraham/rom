@@ -166,8 +166,8 @@ nav ul li.selected {
 .paragraph ul li {
    font-family: 'Quattrocento Sans', italic;
     padding: 20px;
-    line-height: 160%;
-    text-align: right;
+    line-height: 50%;
+    text-align: left;
     list-style-type: none;
 }
 
