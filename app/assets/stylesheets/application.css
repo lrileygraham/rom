@@ -170,6 +170,7 @@ nav ul li.selected {
     font-size: 95%;
     line-height: 160%;
     text-align: left;
+    list-style-type: none;
 }
 
 .homecover {
