@@ -12,13 +12,6 @@
     text-shadow: none;
 }
 
-body {
-   font-family: 'Quattrocento', serif;
-
-}
-
-
-}
 hr {
     display: block;
     height: 1px;
@@ -168,11 +161,10 @@ nav ul li.selected {
     padding: 20px;
     line-height: 160%;
     text-align: left;
-
 }
 
 .paragraph ul li {
-   font-family: 'Quattrocento Sans';
+   font-family: 'Quattrocento Sans', italic;
     padding: 20px;
     padding-top: 1px;
     line-height: 160%;
@@ -382,7 +374,6 @@ h1 {
         padding: 25px 2%;
         margin-bottom: 0;
         list-style-type: none;
-
     }
 
     li.selected {
