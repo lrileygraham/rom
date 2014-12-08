@@ -48,6 +48,11 @@ name img {
   left: 0;
 }
 
+body {
+      font-family: 'Quattrocento', serif;
+
+}
+
 
 fieldset {
     border: 0;
