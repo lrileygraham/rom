@@ -163,7 +163,7 @@ nav ul li.selected {
 
 
 .paragraph {
-    margin-left: 200px;
+    padding: 20px;
     line-height: 160%;
     text-align: left;
 }
