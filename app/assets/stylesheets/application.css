@@ -683,15 +683,18 @@ h1 {
     }
 }
 
-.registryhighlight {
-    text-align: center;
+.group p{margin:0;}
+div{
+    padding:20px 0;
+    width:100%;
+    background:#EEEEEE;
+    text-align:center;
 }
-
-#i1 {
-    margin-right: 200px;
+.group img{
+    clear:both;
 }
-
-#i2 {
-    margin-left: 200px;
+.group span{
+    display:inline-block;
+    margin:0 20px;
 }
 
