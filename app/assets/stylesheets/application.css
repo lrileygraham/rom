@@ -683,4 +683,15 @@ h1 {
     }
 }
 
+.registryhighlight {
+    text-align: center;
+}
+
+#i1 {
+    margin-right: 200px;
+}
+
+#i2 {
+    margin-left: 200px;
+}
 
