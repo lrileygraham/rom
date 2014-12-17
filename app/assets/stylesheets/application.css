@@ -149,7 +149,10 @@ li.selected {
     border-right: none;
 }
 
-
+nav ul li.selected {
+    font-weight: 700;
+  color: #0a0a0a;
+}
 
 .title a {
     color: #696969;
@@ -238,7 +241,38 @@ width:500px;
     MOBILE: Menu
    ============== */
 
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font: 100%;
+    font-family: 'Quattrocento', serif;
+}
 
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 0;
+
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    list-style-type: none;
+
+}
+
+
+
+nav a:hover {
+	color: #0a0a0a;
+}
+
+nav a:visited {
+    font-family: 'Quattrocento', serif;
+    font-weight: 700;
+
+}
 
 .circular {
 	display: block;
@@ -268,7 +302,7 @@ h1 {
 
 .static a {
     color: #2d2d2d;
-    padding-top: 50px;
+    padding-top: 0px;
     font-family: 'Quattrocento Sans', sans-serif;
       font-size: 450%;
       text-decoration: none;
@@ -307,7 +341,7 @@ h1 {
 }
 
 .ie7 .static {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 /* ==========================================================================
@@ -337,6 +371,15 @@ h1 {
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
+
+    nav a {
+        float: left;
+        width: 24%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+        list-style-type: none;
+    }
 
     li.selected {
   font-weight: 700;
@@ -371,12 +414,30 @@ h1 {
     }
 
 
+    nav li:first-child a {
+        margin-left: 0;
+        list-style-type: none;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+        list-style-type: none;
+    }
+    
+
 
 /* ========================
     INTERMEDIATE: IE Fixes
    ======================== */
 
+    nav ul li {
+        display: inline;
+        list-style-type: none;
+    }
 
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -406,7 +467,7 @@ h1 {
 
     .static  a {
  	color: #2d2d2d;
-    padding-top: 70px;
+    padding-top: 50px;
     font-family: 'Quattrocento Sans', sans-serif;
      font-size: 450%;
      text-decoration: none;
@@ -418,6 +479,10 @@ h1 {
         list-style-type: none;
     }
 
+    nav {
+        float: left;
+        width: 50%;
+    }
 
 /* ============
     WIDE: Main
