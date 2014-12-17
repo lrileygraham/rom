@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get 'pages/about'
   
+  get 'test/boostrap'
+  
 
     
   root :to => "ideas#index"
