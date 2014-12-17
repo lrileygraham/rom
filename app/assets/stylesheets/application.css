@@ -302,7 +302,7 @@ h1 {
 
 .static a {
     color: #2d2d2d;
-    padding-top: 70px;
+    padding-top: 50px;
     font-family: 'Quattrocento Sans', sans-serif;
       font-size: 450%;
       text-decoration: none;
@@ -314,7 +314,7 @@ h1 {
   font-family: 'Quattrocento', serif;
       color: #2d2d2d;
       padding-top: 1px;
-      padding-bottom: 30px;
+      padding-bottom: 15px;
       font-size: 97%;
 
 }
