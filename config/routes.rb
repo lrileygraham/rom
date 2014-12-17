@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get 'pages/about'
   
-  get 'test/boostrap'
+  get 'test/bootstrap'
   
 
     
