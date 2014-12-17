@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'test/bootstrap'
+
   resources :guestbooks
 
   resources :photos
@@ -8,7 +10,7 @@ Rails.application.routes.draw do
 
   get 'pages/about'
   
-  get 'test/bootstrap'
+    get 'test/bootstrap'
   
 
     
