@@ -31,13 +31,6 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<?php
-if($_POST["message"]) {
-    mail("lrileygraham@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
-}
-?>
-
-
 </head>
 
 <body role="document">
@@ -69,7 +62,7 @@ if($_POST["message"]) {
 <div class="span4">
 
 <h2>RSVP</h2>
-<form method="post" action="contact.php">
+<form method="POST" name="contactform" action="contact-form-handler.php">
 <label>Name</label>
 <input type="text" name="username" class="span12">
 <label>Email Address</label>
