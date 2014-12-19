@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  resources :comments
-
   get 'test/bootstrap'
 
   resources :guestbooks
