@@ -31,21 +31,6 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<?PHP
-$email = $_POST["emailaddress"];
-$to = "you@youremail.com";
-$subject = "New Email Address for Mailing List";
-$headers = "From: $email\n";
-$message = "A visitor to your site has sent the following email address to be added to your mailing list.\n
-
-Email Address: $email";
-$user = "$email";
-$usersubject = "Thank You";
-$userheaders = "From: you@youremailaddress.com\n";
-$usermessage = "Thank you for subscribing to our mailing list.";
-mail($to,$subject,$message,$headers);
-mail($user,$usersubject,$usermessage,$userheaders);
-?>
 
 </head>
 
@@ -69,38 +54,15 @@ mail($user,$usersubject,$usermessage,$userheaders);
         <div class="span8">
             <div class="hero-unit">
             <h1>Hello, world! Hero-unit with Sign up form</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a href="http://www.bootstraptor.com" class="btn btn-primary btn-large">Learn more »</a></p>
+            <p>TWe are thrilled to celebrate with you on July 11, 2015 </p>
+<img src="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3764.jpg" width="300" height="auto" style="max-width:100%;height:auto; />
+        <p><a href="http://www.bootstraptor.com" class="btn btn-primary btn-large">More wedding details »</a></p>
             </div>
         </div>
 
+<a class="twitter-timeline" href="https://twitter.com/hashtag/rom711" data-widget-id="549985274919661568">#rom711 Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<div class="span4">
-
-<h2>RSVP</h2>
-<form action="welcome.php" method="post">
-<label>Name</label>
-<input type="text" name="username" class="span12">
-<label>Email Address</label>
-<input type="email" name="email" class="span12">
-<div class="radio">
-<label>
-<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-Yes! We will be there!
-</label>
-</div>
-<div class="radio">
-<label>
-<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-No, we regretfully cannot attend.
-</label>
-</div>
-<textarea class="form-control" rows="3">Anything else you want to include?</textarea>
-<input type="submit" value="Submit" class="btn btn-primary pull-left">
-<div class="clearfix"></div>
-</form>
-</div>
-</div>
 
 
 <ul class="nav nav-pills">
