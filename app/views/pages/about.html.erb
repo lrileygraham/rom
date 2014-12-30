@@ -1,16 +1,15 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
 
 <head>
 <title>About Us</title>
-<link data-turbolinks-track="true" href="/assets/application-4318de873cfd53e5d34049c2e14286d5.css" media="all" rel="stylesheet" />
-<script data-turbolinks-track="true" src="/assets/application-8d88dcc7fa0a6587a12385e40a642ca1.js"></script>
-<meta content="authenticity_token" name="csrf-param" />
-<meta content="V4B6ucRFLVSk689Uvlj+XOQjVkUrxWYv7CSGTDvvbTM=" name="csrf-token" />
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<%= csrf_meta_tags %>
 
 
 <meta charset="utf-8">
@@ -22,165 +21,11 @@
 <link href="http://fonts.googleapis.com/css?family=Quattrocento" rel='stylesheet' type='text/css'>
 <link href="http://fonts.googleapis.com/css?family=Quattrocento+Sans" rel='stylesheet' type='text/css'>
 
-<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-<script>
-$(document).ready(function() {
-    var showChar = 500;
-    var ellipsestext = "...";
-    var moretext = "more";
-    var lesstext = "less";
-    $('.more').each(function() {
-        var content = $(this).html();
-        
-        if(content.length > showChar) {
-            
-            var c = content.substr(0, showChar);
-            var h = content.substr(showChar-1, content.length - showChar);
-            
-            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
-            
-            $(this).html(html);
-        }
-        
-    });
-    
-    $(".morelink").click(function(){
-        if($(this).hasClass("less")) {
-            $(this).removeClass("less");
-            $(this).html(moretext);
-        } else {
-            $(this).addClass("less");
-            $(this).html(lesstext);
-        }
-        $(this).parent().prev().toggle();
-        $(this).prev().toggle();
-        return false;
-    });
-});
-</script>
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-57329539-1', 'auto');
-ga('send', 'pageview');
-
-</script>
 
 </head>
 
 
 <body>
-<div class="header-container">
-<header class="wrapper clearfix">
-
-
-<ul class="nav nav-tabs">
-<li role="presentation" class="active"><a href="#">About Us</a></li>
-<li role="presentation"><a href="../folder/wedding">Wedding</a></li>
-<li role="presentation"><a href="../gifts/registries">Registries</a></li>
-</ul>
-
-
-
-</header>
-</div>
-
-
-<div class="main-container">
-<div class="main wrapper clearfix">
-
-
-<div class ="paragraph">
-<title>About Us</title>
-<link data-turbolinks-track="true" href="/assets/application-4318de873cfd53e5d34049c2e14286d5.css" media="all" rel="stylesheet" />
-<script data-turbolinks-track="true" src="/assets/application-8d88dcc7fa0a6587a12385e40a642ca1.js"></script>
-<meta content="authenticity_token" name="csrf-param" />
-<meta content="V4B6ucRFLVSk689Uvlj+XOQjVkUrxWYv7CSGTDvvbTM=" name="csrf-token" />
-
-
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title></title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link href="http://fonts.googleapis.com/css?family=Quattrocento" rel='stylesheet' type='text/css'>
-<link href="http://fonts.googleapis.com/css?family=Quattrocento+Sans" rel='stylesheet' type='text/css'>
-
-<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-<script>
-$(document).ready(function() {
-    var showChar = 500;
-    var ellipsestext = "...";
-    var moretext = "more";
-    var lesstext = "less";
-    $('.more').each(function() {
-        var content = $(this).html();
-        
-        if(content.length > showChar) {
-            
-            var c = content.substr(0, showChar);
-            var h = content.substr(showChar-1, content.length - showChar);
-            
-            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
-            
-            $(this).html(html);
-        }
-        
-    });
-    
-    $(".morelink").click(function(){
-        if($(this).hasClass("less")) {
-            $(this).removeClass("less");
-            $(this).html(moretext);
-        } else {
-            $(this).addClass("less");
-            $(this).html(lesstext);
-        }
-        $(this).parent().prev().toggle();
-        $(this).prev().toggle();
-        return false;
-    });
-});
-</script>
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-57329539-1', 'auto');
-ga('send', 'pageview');
-
-</script>
-
-</head>
-
-
-<body>
-<div class="header-container">
-<header class="wrapper clearfix">
-
-
-<ul class="nav nav-tabs">
-<li role="presentation" class="active"><a href="#">About Us</a></li>
-<li role="presentation"><a href="../folder/wedding">Wedding</a></li>
-<li role="presentation"><a href="../gifts/registries">Registries</a></li>
-</ul>
-
-
-
-</header>
-</div>
-
-
 <div class="main-container">
 <div class="main wrapper clearfix">
 
