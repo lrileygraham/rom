@@ -161,7 +161,10 @@ h2 {
 
 }
 
-
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
 
 </style>
 
@@ -256,7 +259,7 @@ ga('send', 'pageview');
 
 <div class="col-md-4 col-xs-4 thumb">
 <a class="thumbnail" href="#">
-<img class="img-responsive" src="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3755-e1411415723367.jpg" alt="Us on Mount Washington in Pittsburgh">
+<img class="img-responsive" src="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3755-e1411415723367.jpg" data-toggle="lightbox" alt="Us on Mount Washington in Pittsburgh">
 </a>
 </div>
 <div class="col-md-4 col-xs-4 thumb">
@@ -271,17 +274,17 @@ ga('send', 'pageview');
 </div>
 <div class="col-md-4 col-xs-4 thumb">
 <a class="thumbnail" href="#">
-<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+<img class="img-responsive" src="http://www.rileyisme.com/wp-content/uploads/2014/09/photo-1.jpg" alt="Gina's Wedding!">
 </a>
 </div>
 <div class="col-md-4 col-xs-4 thumb">
 <a class="thumbnail" href="#">
-<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+<img class="img-responsive" src="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3764.jpg" alt="Toronto!">
 </a>
 </div>
 <div class="col-md-4 col-xs-4 thumb">
 <a class="thumbnail" href="#">
-<img class="img-responsive" src="http://placehold.it/400x300" alt="">
+<img class="img-responsive" src="hhttp://www.rileyisme.com/wp-content/uploads/2014/12/DSC_005_1041.jpg" alt="Chicago">
 </a>
 </div>
 <div class="col-md-4 col-xs-4 thumb">
