@@ -257,8 +257,9 @@ ga('send', 'pageview');
 <h2>Us!</h2>
 
 <div class="col-md-4 thumb">
-<a class="thumbnail" href="#" >
-<img class="img-responsive" src="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3755-e1411415723367.jpg" alt="Us on Mount Washington in Pittsburgh">
+<div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+<a class="thumbnail" href="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3755-e1411415723367.jpg" data-toggle="lightbox">
+<div class='lightbox-content'><img class="img-responsive" src="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3755-e1411415723367.jpg" alt="Us on Mount Washington in Pittsburgh"></div> </div>
 </a>
 </div>
 <div class="col-md-4 col-xs-4 thumb">
@@ -336,5 +337,8 @@ ga('send', 'pageview');
 <script src="../../dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<script>
+$('#myLightbox').lightbox(options)
+</script>
 </body>
 </html>
