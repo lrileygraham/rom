@@ -29,6 +29,8 @@
 
 <link href='http://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://rawgit.com/ashleydw/lightbox/master/dist/ekko-lightbox.css'rel='stylesheet' type='text/css'>
+<link href='http://rawgit.com/ashleydw/lightbox/gh-pages/css/dark.css' rel='stylesheet' type='text/css'>
 
  <script src="http://code.jquery.com/jquery.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
@@ -255,7 +257,7 @@ ga('send', 'pageview');
 <h2>Us!</h2>
 
 <div class="col-md-4 thumb">
-<a class="thumbnail" href="#">
+<a class="thumbnail" href="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3755-e1411415723367.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs">
 <img class="img-responsive" src="http://www.rileyisme.com/wp-content/uploads/2014/09/IMG_3755-e1411415723367.jpg" alt="Us on Mount Washington in Pittsburgh">
 </a>
 </div>
@@ -334,5 +336,26 @@ ga('send', 'pageview');
 <script src="../../dist/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<!-- yea, yea, not a cdn, i know -->
+<script src="http://rawgit.com/ashleydw/lightbox/master/dist/ekko-lightbox.js"></script>
+<script type="text/javascript">
+$(document).ready(function ($) {
+    
+				// delegate calls to data-toggle="lightbox"
+                $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+                    event.preventDefault();
+                    return $(this).ekkoLightbox({
+                        always_show_close: true
+                    });
+                });
+                
+});
+</script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+
+
+
 </body>
 </html>
